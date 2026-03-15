@@ -1,7 +1,7 @@
 {
-    "name": "jasonfyw.github.io",
+    "name": "rosiechen1005.github.io",
     "version": "0.1.0",
-    "homepage": "https://jasonfyw.com",
+    "homepage": "https://rosiechen1005.github.io",
     "private": true,
     "dependencies": {
         "@chakra-ui/icons": "^2.0.9",
@@ -41,6 +41,8 @@
         "build": "react-scripts build",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
+        "deploy:pages": "gh-pages -d build -r https://github.com/rosiechen1005/rosiechen1005.github.io.git -b gh-pages",
+        "deploy:pages:main": "gh-pages -d build -r https://github.com/rosiechen1005/rosiechen1005.github.io.git -b main",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "format": "prettier --config .prettierrc 'src/**/*.{ts,tsx}' --write"

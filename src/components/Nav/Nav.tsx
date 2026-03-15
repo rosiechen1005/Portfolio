@@ -13,7 +13,7 @@ import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 import { Link as ScrollLink } from 'react-scroll'
 import { ColorModeSwitcher } from '../../ColorModeSwitcher'
 
-const Links = ['About me', 'Skills', 'Experience', 'Projects', 'Contact']
+const Links = ['Projects', 'Experience', 'Skills', 'About me', 'Contact']
 
 const NavLink = ({
     children,
@@ -91,8 +91,8 @@ const Nav: FC = () => {
                     />
                     <Flex alignItems={'center'} pl={4}>
                         <NavLink to={'home'} onClose={onClose}>
-                            {/* <Box fontWeight={600}>Jason Wang</Box> */}
-                            <Text fontWeight={600}>Jason Wang</Text>
+                            {/* <Box fontWeight={600}>Rosie Chen</Box> */}
+                            <Text fontWeight={600}>Rosie Chen</Text>
                         </NavLink>
                     </Flex>
                     <HStack spacing={8} alignItems={'center'}>

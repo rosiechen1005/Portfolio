@@ -1,54 +1,49 @@
 import { ExperienceData } from './types'
-import nerveXLogo from '../media/nervex_logo.jpeg'
-import blueprintLogo from '../media/blueprint_logo.jpeg'
-import mieLogo from '../media/uoftmie_logo.jpeg'
-import theScoreLogo from '../media/thescore_logo.jpeg'
-import deepGenomicsLogo from '../media/dg_logo.jpeg'
 
 export const experienceData: ExperienceData[] = [
     {
-        title: 'Software Developer',
-        company: 'Deep Genomics',
-        location: 'Toronto, ON',
-        dates: 'January 2026 - Present',
+        title: 'Data Science Intern',
+        company: 'ESSIC',
+        location: 'College Park, MD',
+        dates: 'June 2025 - August 2025',
         description:
-            'Building internal data tools for scientists and ML researchers to accelerate genome research and analysis.',
-        logoSrc: deepGenomicsLogo
+            'Built and validated spatiotemporal forecasting models on 1M+ multi-decade climate records, improving cross-validated R² by ~150% over baseline and translating results into decision-ready KPIs for research planning.',
+        logoSrc: '/umd.png',
     },
     {
-        title: 'Software Developer',
-        company: 'theScore',
-        location: 'Toronto, ON',
-        dates: 'May 2024 - August 2025',
+        title: 'Data Analyst Intern',
+        company: 'HMDA Team',
+        location: 'Los Angeles, CA',
+        dates: 'Sept 2023 - Present',
         description:
-            'Contributing to the front-end development of software for the Retail Web Team for deployment across devices in PENN Entertainment retail properties and improving performance, observability, and developer experience across front-end applications for the Platform Web Team.',
-        logoSrc: theScoreLogo
+            'Analyzed 1M+ national mortgage records across 125+ institutions, identifying structural lending disparities and capacity gaps that informed published executive briefs contributing to national policy discussions.',
+        logoSrc: '/ucla.png',
     },
     {
-        title: 'Software Engineer',
-        company: 'UofT Department of Mechanical & Industrial Engineering',
-        location: 'Toronto, ON',
+        title: 'Lead Data Consultant, Report Lead',
+        company: 'Bruin Sports Analytics',
+        location: 'Los Angeles, CA',
         dates: 'January 2024 - April 2024',
         description:
-            'Designed and developed a web application for morLab, led by Professor Dionne Aleman, to provide a user-friendly UI to create, view, and manage advanced and customizable pandemic simulations.',
-        logoSrc: mieLogo
+            'Led regression-based KPI analysis and segmentation modeling under 72-hour deadlines, delivering dashboards that directly influenced player strategy and measurable win probability improvements.',
+        logoSrc: '/BSA.png',
     },
     {
-        title: 'Senior Project Developer',
-        company: 'UofT Blueprint',
-        location: 'Toronto, ON',
-        dates: 'September 2023 - April 2024',
+        title: 'Data Science Intern (Research Assistant)',
+        company: 'AIVC',
+        location: 'Los Angeles, CA',
+        dates: 'September 2025 - Present',
         description:
-            'Spearheaded the development of a full-stack web and mobile application for the Center For Dreams, a non-profit focusing on educational and social integration programs for individuals with developmental disabilities.',
-        logoSrc: blueprintLogo
+            'Designed large-scale evaluation pipelines across 4,000+ parallel simulations, analyzing model failure modes to inform optimization of a robotics system included in a CVPR demo.',
+        logoSrc: '/ucla.png',
     },
     {
-        title: 'Software Engineer Intern',
-        company: 'NerveX Neurotechnologies',
-        location: 'Toronto, ON',
-        dates: 'May 2023 - January 2024',
+        title: 'Data Researcher, Data Analyst',
+        company: 'DataRes',
+        location: 'Los Angeles, CA',
+        dates: 'May 2023 - Present',
         description:
-            'Enhanced API efficiency, developed a medical charting library, and streamlined data pipelines using modern technologies like .NET Core, ReactJS, TypeScript, Docker, and AWS Lambda.',
-        logoSrc: nerveXLogo,
+            'Designed and deployed a retrieval-augmented LLM recommendation pipeline, incorporating user feedback loops to iteratively improve relevance and decision support for UCLA students.',
+        logoSrc: '/datares.png',
     },
 ]

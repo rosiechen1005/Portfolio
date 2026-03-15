@@ -2,7 +2,6 @@ import { FC } from 'react'
 import {
     Container,
     Heading,
-    HStack,
     Text,
     VStack,
     useColorModeValue,
@@ -30,29 +29,34 @@ const Intro: FC = () => {
                         textAlign='center'
                     >
                         <ReactTypingEffect
-                            text='Jason Wang'
+                            text='Rosie (Rosalinda) Chen'
                             speed={85}
                             eraseDelay={1000000}
                             typingDelay={650}
                             cursor='_'
                         />
                     </Heading>
-                    <HStack spacing={6}>
-                        {['🇨🇦', '🇨🇳', '🇨🇿'].map(c => (
-                            <Heading fontSize={'1.75rem'}>{c}</Heading>
-                        ))}
-                    </HStack>
+                    <Text
+                        fontSize={'1.25rem'}
+                        fontWeight={300}
+                        color={useColorModeValue('#5a657c', '#9199a9')}
+                    >
+                        📍 Fremont, CA
+                    </Text>
                     <Fade bottom cascade>
-                        <Text
-                            fontSize={'1.5rem'}
-                            fontWeight={300}
-                            color={useColorModeValue('#5a657c', '#9199a9')}
-                            textAlign='center'
-                            letterSpacing={1.1}
-                        >
-                            Computer Science + Cognitive Science @ University of
-                            Toronto '26
-                        </Text>
+                    <Text
+                        fontSize={'1.5rem'}
+                        fontWeight={300}
+                        color={useColorModeValue('#5a657c', '#9199a9')}
+                        textAlign='center'
+                        letterSpacing={1.1}
+                    >
+                        Data Scientist & ML Engineer
+                        <br />
+                        <Box as="span" pl={6}>
+                            {`UCLA '26 → Carnegie Mellon M.S. Applied Data Science '27`}
+                        </Box>
+                    </Text>
                         <Box p={4}>
                             <Socials
                                 color={useColorModeValue('#5a657c', '#9199a9')}
@@ -60,8 +64,10 @@ const Intro: FC = () => {
                         </Box>
                     </Fade>
                     <Link
-                        href={'/Resume_Jason_Wang.pdf'}
+                        href={`${typeof window !== 'undefined' ? window.location.origin : ''}/Resume_Rosie_Chen.pdf`}
                         isExternal
+                        target="_blank"
+                        rel="noopener noreferrer"
                         _hover={{ textDecor: 'none' }}
                     >
                         <Button

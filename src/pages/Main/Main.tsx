@@ -13,10 +13,10 @@ const Main = () => {
         <>
             <Nav />
             <Intro />
-            <About />
-            <Skills />
-            <Experience />
             <Projects />
+            <Experience />
+            <Skills />
+            <About />
             <Contact />
             {/* Background component */}
             <Background />

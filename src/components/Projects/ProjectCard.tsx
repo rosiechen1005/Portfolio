@@ -81,7 +81,7 @@ const ProjectCard: FC<ProjectCardProps> = props => {
                     <Spacer />
                     <HStack>{props.links}</HStack>
                 </Flex>
-                <HStack>{props.tags}</HStack>
+                <Flex flexWrap={'wrap'} gap={1}>{props.tags}</Flex>
                 <Text color={'gray.500'}>{props.description}</Text>
                 <Box>
                     <Link

@@ -9,7 +9,6 @@ import {
     useColorModeValue,
     Flex,
     Center,
-    Link,
 } from '@chakra-ui/react'
 import { Element } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
@@ -31,7 +30,7 @@ const About: FC = () => {
                     >
                         <Image
                             borderRadius='full'
-                            boxSize='150px'
+                            boxSize='300px'
                             src={headshot}
                             border={`3px solid ${useColorModeValue('#1E2428', '#ECEFF4')}`}
                         />
@@ -40,55 +39,41 @@ const About: FC = () => {
                                 <Flex>
                                     <Center p={4}>👋🏼</Center>
                                     <Text>
-                                        Hi, I'm Jason and I'm a final year co-op
-                                        student at the{' '}
-                                        <b>University of Toronto</b> with a
-                                        passion for <b>Software Engineering</b>.
+                                        Hi, I'm Rosie - an incoming Masters student at <b> Carnegie Mellon University </b> in Applied Data Science. 
+                                        Currently, I'm a final year student in Statistics & Data Science and Applied Math (Computing) at <b> University of California, Los Angeles (UCLA)</b>. 
                                     </Text>
                                 </Flex>
                             </Fade>
                             <Fade bottom cascade duration={500}>
                                 <Flex>
                                     <Center p={4}>🎓</Center>
-                                    <Text>
-                                        I'm pursuing an HBSc with a{' '}
-                                        <b>
-                                            Specialist in Computer Science (ASIP
-                                            co-op)
-                                        </b>{' '}
-                                        and <b>Major in Cognitive Science</b>,
-                                        graduating class of 2026.
-                                    </Text>
+                                    <Text whiteSpace="pre-wrap">
+{`My work focuses on building real-word constrained models, including:
+        1. I’ve analyzed over a million national mortgage records to uncover structural lending disparities, with findings compiled into a published brief contributing to national policy discussions.
+        2. In climate research, I developed spatiotemporal models identifying corn crop yield drivers across the U.S. Corn Belt — work that now serves as a foundation for long-term agricultural yield forecasting efforts.
+        3. In sports analytics, I’ve delivered match-level performance reports within 72 hours, directly informing player strategy adjustments under tight deadlines.`}
+</Text>
                                 </Flex>
                             </Fade>
                             <Fade bottom cascade duration={500}>
                                 <Flex>
                                     <Center p={4}>👨🏻‍💻</Center>
                                     <Text>
-                                        I have interned as a <b>Software Developer at theScore</b>, as well as a{' '}
-                                        <b>
-                                            Software Engineering Intern at
-                                            NerveX
-                                        </b>{' '}
-                                        working in full-stack development. I also have experience as a developer at various student organizations, including <b>UofT Blueprint, UTMIST,</b> and <b>UofT AI</b>.
-                                    </Text>
+                                    I work primarily in <b>SQL</b>, <b>Python</b>, and <b>R</b>, 
+                                    building data pipelines and predictive models designed to perform 
+                                    under imperfect, real-world conditions — including multi-source integration, 
+                                    temporal misalignment, and noisy inputs, translating results into something stakeholders can actually use.
+                                                                        </Text>
                                 </Flex>
                             </Fade>
                             <Fade bottom cascade duration={500}>
                                 <Flex>
                                     <Center p={4}>🚀</Center>
                                     <Text>
-                                        I'm experienced in full-stack web
-                                        development - particularly with{' '}
-                                        <b>Typescript</b> and <b>Python</b>.{' '}
-                                        <b>ReactJS/NextJS</b> is my frontend framework
-                                        of choice and I've worked in backend
-                                        with{' '}
-                                        <b>NodeJS, .NET Core, Java,</b> and <b>Python</b>.
-                                    </Text>
+                                    Beyond traditional statistical modeling, I’ve also explored system-level applications of modern ML tools. I’ve built retrieval-augmented recommendation systems to help UCLA students navigate course planning decisions, and contributed to robotics research focused on aligning visual perception with action policies. More recently, I’ve been experimenting with algorithmic optimization through computational string art — using greedy and gradient-based methods to approximate complex visual structures.                                    </Text>
                                 </Flex>
                             </Fade>
-                            <Fade bottom cascade duration={500}>
+                            {/* <Fade bottom cascade duration={500}>
                                 <Flex>
                                     <Center p={4}>🧠</Center>
                                     <Text>
@@ -98,7 +83,7 @@ const About: FC = () => {
                                         science, as well as photography! Check
                                         out my&nbsp;
                                         <Link
-                                            href='https://photo.jasonfyw.com'
+                                            href='https://photo.rosiechen.com'
                                             isExternal
                                             fontWeight={'semibold'}
                                             borderBottom={
@@ -115,7 +100,7 @@ const About: FC = () => {
                                         </Link>
                                     </Text>
                                 </Flex>
-                            </Fade>
+                            </Fade> */}
                         </VStack>
                     </Stack>
                 </VStack>
