@@ -6,11 +6,13 @@ Feel free to take inspiration. If you plan on using my site as a template, pleas
 
 ## Deploy (get https://rosiechen1005.github.io working)
 
-1. **Deploy the built site** (from this project folder):
+**Important:** Pushing to `main` only updates the repo. The live site is served from the **gh-pages** branch. After any change you want to see on the site, you must run the deploy step below.
+
+1. **Build and deploy the site** (run this after editing the portfolio):
    ```bash
-   npm run deploy:pages
+   npm run deploy:site
    ```
-   If you get a permission or auth error, log in to GitHub (e.g. `gh auth login` or use a personal access token). The script pushes the `build` folder to the **gh-pages** branch of `rosiechen1005/rosiechen1005.github.io`.
+   Or in two steps: `npm run build` then `npm run deploy:pages`. This pushes the `build` folder to the **gh-pages** branch of `rosiechen1005/rosiechen1005.github.io`.
 
 2. **Turn on GitHub Pages** (required or the site will 404):
    - Open **https://github.com/rosiechen1005/rosiechen1005.github.io**
