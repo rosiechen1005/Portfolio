@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrosiechen_github_io=self.webpackChunkrosiechen_github_io||[]).push([[600],{1600:function(e,i,s){e.exports=s.p+"static/media/petpal.71b9b91436188ad352a3.md"}}]);

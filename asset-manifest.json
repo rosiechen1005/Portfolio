@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.3c2db1ae.css",
-    "main.js": "/static/js/main.647d7b07.js",
-    "static/js/422.e0be0dbe.chunk.js": "/static/js/422.e0be0dbe.chunk.js",
-    "static/js/557.12f8755c.chunk.js": "/static/js/557.12f8755c.chunk.js",
-    "static/js/578.e5930d55.chunk.js": "/static/js/578.e5930d55.chunk.js",
-    "static/js/718.940be88e.chunk.js": "/static/js/718.940be88e.chunk.js",
-    "static/js/341.359e4c97.chunk.js": "/static/js/341.359e4c97.chunk.js",
-    "static/js/600.f1ddd758.chunk.js": "/static/js/600.f1ddd758.chunk.js",
-    "static/js/211.06c5040f.chunk.js": "/static/js/211.06c5040f.chunk.js",
-    "static/js/860.82b1d91a.chunk.js": "/static/js/860.82b1d91a.chunk.js",
-    "static/js/220.55a64e8a.chunk.js": "/static/js/220.55a64e8a.chunk.js",
-    "static/js/321.b9ad4081.chunk.js": "/static/js/321.b9ad4081.chunk.js",
+    "main.js": "/static/js/main.db897482.js",
+    "static/js/756.8aedb847.chunk.js": "/static/js/756.8aedb847.chunk.js",
+    "static/js/422.cf1a9ae4.chunk.js": "/static/js/422.cf1a9ae4.chunk.js",
+    "static/js/980.3f6a39a7.chunk.js": "/static/js/980.3f6a39a7.chunk.js",
+    "static/js/288.64330982.chunk.js": "/static/js/288.64330982.chunk.js",
+    "static/js/578.c1527249.chunk.js": "/static/js/578.c1527249.chunk.js",
+    "static/js/86.7bdbec27.chunk.js": "/static/js/86.7bdbec27.chunk.js",
+    "static/js/718.b2050f3a.chunk.js": "/static/js/718.b2050f3a.chunk.js",
+    "static/js/341.9f83951d.chunk.js": "/static/js/341.9f83951d.chunk.js",
+    "static/js/860.d19be026.chunk.js": "/static/js/860.d19be026.chunk.js",
+    "static/js/321.568b43c0.chunk.js": "/static/js/321.568b43c0.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.6e44f90dc9f8cf3339e5.jpg",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -57,7 +57,6 @@
     "static/media/KaTeX_Fraktur-Bold.woff2": "/static/media/KaTeX_Fraktur-Bold.931d67ea207ab37ee693.woff2",
     "static/media/KaTeX_Fraktur-Regular.woff2": "/static/media/KaTeX_Fraktur-Regular.172d3529b26f8cedef6b.woff2",
     "static/media/KaTeX_Script-Regular.woff": "/static/media/KaTeX_Script-Regular.073b3402d036714b4370.woff",
-    "static/media/dg_logo.jpeg": "/static/media/dg_logo.c890515f7bb64052a375.jpeg",
     "static/media/KaTeX_Size4-Regular.ttf": "/static/media/KaTeX_Size4-Regular.4ad7c7e8bb8d10a34bb7.ttf",
     "static/media/KaTeX_SansSerif-Regular.woff2": "/static/media/KaTeX_SansSerif-Regular.cd5e231e0cc53b2cb2c0.woff2",
     "static/media/KaTeX_Script-Regular.woff2": "/static/media/KaTeX_Script-Regular.c81d1b2a4b75d3eded60.woff2",
@@ -76,20 +75,20 @@
     "static/media/fourier-series.md": "/static/media/fourier-series.bc4d29c2aa527ea7661c.md",
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
+    "static/media/dh101-project.md": "/static/media/dh101-project.540100a47b682ba7d76c.md",
+    "static/media/bruinplanner.md": "/static/media/bruinplanner.7887502d721603dd0bd9.md",
     "static/media/plismun.md": "/static/media/plismun.7e7abc8146ce8371f63e.md",
+    "static/media/hmda.md": "/static/media/hmda.dd8f72924968a7d7f4e5.md",
     "static/media/orbital-sim.md": "/static/media/orbital-sim.b91da2727e5f48139146.md",
+    "static/media/agricast-ml.md": "/static/media/agricast-ml.7cbaf0064b6871da6683.md",
     "static/media/twitter-geo-sentiment.md": "/static/media/twitter-geo-sentiment.58348df50f3d882b4d37.md",
-    "static/media/finquest.md": "/static/media/finquest.689c576fe00639378107.md",
-    "static/media/street-savvy.md": "/static/media/street-savvy.b95f2f9dc822e8981af9.md",
-    "static/media/photography-portfolio.md": "/static/media/photography-portfolio.123706455b0afe2cedf6.md",
-    "static/media/petpal.md": "/static/media/petpal.71b9b91436188ad352a3.md",
     "static/media/linky.md": "/static/media/linky.f56455433636236fb7a2.md",
     "static/media/blogging-application.md": "/static/media/blogging-application.ae7383187bc07be9e5da.md",
     "main.3c2db1ae.css.map": "/static/css/main.3c2db1ae.css.map",
-    "main.647d7b07.js.map": "/static/js/main.647d7b07.js.map"
+    "main.db897482.js.map": "/static/js/main.db897482.js.map"
   },
   "entrypoints": [
     "static/css/main.3c2db1ae.css",
-    "static/js/main.647d7b07.js"
+    "static/js/main.db897482.js"
   ]
 }

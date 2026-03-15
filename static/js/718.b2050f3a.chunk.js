@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrosiechen1005_github_io=self.webpackChunkrosiechen1005_github_io||[]).push([[718],{8718:function(e,i,s){e.exports=s.p+"static/media/linky.f56455433636236fb7a2.md"}}]);
