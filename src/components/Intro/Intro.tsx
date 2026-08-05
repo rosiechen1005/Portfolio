@@ -41,7 +41,7 @@ const Intro: FC = () => {
                         fontWeight={300}
                         color={useColorModeValue('#5a657c', '#9199a9')}
                     >
-                        📍 Fremont, CA
+                        📍 Berkeley, CA
                     </Text>
                     <Fade bottom cascade>
                     <Text
@@ -54,11 +54,11 @@ const Intro: FC = () => {
                         Machine Learning Engineer | Software Engineer
                         <br />
                         <Box as="span" pl={6}>
-                            {`UC Berkeley — M.S. Analytics, Machine Learning & Optimization · Incoming`}
+                            {`UC Berkeley — M.S. Analytics (Machine Learning & Optimization) · Expected June 2027`}
                         </Box>
                         <br />
                         <Box as="span" pl={6}>
-                            {`UCLA — B.S. Stats & Data Science + Applied Math (Computing) · Graduated Jan 2026`}
+                            {`UCLA — B.S. Stats & Data Science + Applied Math (Computing)`}
                         </Box>
                     </Text>
                         <Box p={4}>
