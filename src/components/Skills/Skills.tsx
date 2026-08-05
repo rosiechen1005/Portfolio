@@ -192,7 +192,6 @@ import {
   SiNumpy,
   SiPandas,
   SiGit,
-  SiPostgresql,
 } from 'react-icons/si'
 import {
   FaDatabase,

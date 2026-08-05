@@ -29,7 +29,7 @@ const Intro: FC = () => {
                         textAlign='center'
                     >
                         <ReactTypingEffect
-                            text='Rosie (Rosalinda) Chen'
+                            text='Rosalinda (Rosie) Chen'
                             speed={85}
                             eraseDelay={1000000}
                             typingDelay={650}
@@ -51,10 +51,14 @@ const Intro: FC = () => {
                         textAlign='center'
                         letterSpacing={1.1}
                     >
-                        Data Scientist & ML Engineer
+                        Machine Learning Engineer | Software Engineer
                         <br />
                         <Box as="span" pl={6}>
-                            {`UCLA '26 → Carnegie Mellon M.S. Applied Data Science '27`}
+                            {`UC Berkeley — M.S. Analytics, Machine Learning & Optimization · Incoming`}
+                        </Box>
+                        <br />
+                        <Box as="span" pl={6}>
+                            {`UCLA — B.S. Stats & Data Science + Applied Math (Computing) · Graduated Jan 2026`}
                         </Box>
                     </Text>
                         <Box p={4}>

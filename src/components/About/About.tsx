@@ -39,8 +39,7 @@ const About: FC = () => {
                                 <Flex>
                                     <Center p={4}>👋🏼</Center>
                                     <Text>
-                                        Hi, I'm Rosie - an incoming Masters student at <b> Carnegie Mellon University </b> in Applied Data Science. 
-                                        Currently, I'm a final year student in Statistics & Data Science and Applied Math (Computing) at <b> University of California, Los Angeles (UCLA)</b>. 
+                                        Hi, I'm Rosie, a recent <b>UCLA</b> graduate in Statistics & Data Science and Applied Math (Computing), starting my <b>M.S. in Analytics at UC Berkeley</b> with a concentration in Machine Learning & Optimization. 
                                     </Text>
                                 </Flex>
                             </Fade>
@@ -48,9 +47,9 @@ const About: FC = () => {
                                 <Flex>
                                     <Center p={4}>🎓</Center>
                                     <Text whiteSpace="pre-wrap">
-{`My work focuses on building real-word constrained models, including:
+{`My work focuses on building real-world constrained models, including:
         1. I’ve analyzed over a million national mortgage records to uncover structural lending disparities, with findings compiled into a published brief contributing to national policy discussions.
-        2. In climate research, I developed spatiotemporal models identifying corn crop yield drivers across the U.S. Corn Belt — work that now serves as a foundation for long-term agricultural yield forecasting efforts.
+        2. In climate research, I developed spatiotemporal models identifying corn crop yield drivers across the U.S. Corn Belt; this work now serves as a foundation for long-term agricultural yield forecasting efforts.
         3. In sports analytics, I’ve delivered match-level performance reports within 72 hours, directly informing player strategy adjustments under tight deadlines.`}
 </Text>
                                 </Flex>
@@ -61,7 +60,7 @@ const About: FC = () => {
                                     <Text>
                                     I work primarily in <b>SQL</b>, <b>Python</b>, and <b>R</b>, 
                                     building data pipelines and predictive models designed to perform 
-                                    under imperfect, real-world conditions — including multi-source integration, 
+                                    under imperfect, real-world conditions. This includes multi-source integration, 
                                     temporal misalignment, and noisy inputs, translating results into something stakeholders can actually use.
                                                                         </Text>
                                 </Flex>
@@ -70,7 +69,7 @@ const About: FC = () => {
                                 <Flex>
                                     <Center p={4}>🚀</Center>
                                     <Text>
-                                    Beyond traditional statistical modeling, I’ve also explored system-level applications of modern ML tools. I’ve built retrieval-augmented recommendation systems to help UCLA students navigate course planning decisions, and contributed to robotics research focused on aligning visual perception with action policies. More recently, I’ve been experimenting with algorithmic optimization through computational string art — using greedy and gradient-based methods to approximate complex visual structures.                                    </Text>
+                                    Beyond traditional statistical modeling, I’ve also explored system-level applications of modern ML tools. I’ve built retrieval-augmented recommendation systems to help UCLA students navigate course planning decisions, and contributed to robotics research focused on aligning visual perception with action policies. More recently, I’ve been experimenting with algorithmic optimization through computational string art, using greedy and gradient-based methods to approximate complex visual structures.                                    </Text>
                                 </Flex>
                             </Fade>
                             {/* <Fade bottom cascade duration={500}>
